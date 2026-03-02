@@ -12,6 +12,7 @@
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
+    <button onclick="toggleMode()" class="toggle">Mode</button>
   </nav>
 
   <section class="hero">
@@ -39,5 +40,11 @@
     © 2026 Priadi
   </footer>
 
+<script>
+function toggleMode() {
+  document.body.classList.toggle("light");
+}
+</script>
+  
 </body>
 </html>
