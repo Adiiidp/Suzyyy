@@ -43,6 +43,17 @@
 <script>
 function toggleMode() {
   document.body.classList.toggle("light");
+  if (document.body.classList.contains("light")) {
+    localStorage.setItem("mode", "light");
+  } else {
+    localStorage.setItem("mode", "dark");
+  }
+}
+
+window.onload = function() {
+  if (localStorage.getItem("mode") === "light") {
+    document.body.classList.add("light");
+  }
 }
 </script>
   
