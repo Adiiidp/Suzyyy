@@ -101,3 +101,24 @@ footer {
 .card:hover {
   transform: translateY(-10px);
 }
+
+@media (max-width: 768px) {
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+}
