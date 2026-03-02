@@ -79,3 +79,25 @@ footer {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.projects {
+  padding: 80px 20px;
+}
+
+.projects h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 30px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
